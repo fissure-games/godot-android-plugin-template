@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <application>
+        <meta-data
+            android:name="com.fissuregames.godot.template.v1.MyGodotSingleton"
+            android:value="com.fissuregames.godot.template.MyGodotSingleton" />
+    </application>
+</manifest>
