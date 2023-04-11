@@ -7,9 +7,9 @@ import androidx.annotation.NonNull;
 import org.godotengine.godot.Godot;
 import org.godotengine.godot.plugin.GodotPlugin;
 import org.godotengine.godot.plugin.SignalInfo;
+import org.godotengine.godot.plugin.UsedByGodot;
 
 import java.util.HashSet;
-import java.util.List;
 import java.util.Set;
 
 public class MyGodotSingleton extends GodotPlugin {
@@ -18,6 +18,7 @@ public class MyGodotSingleton extends GodotPlugin {
         super(godot);
     }
 
+    @UsedByGodot
     public void sayHello() {
         Log.i("MyGodotPlugin", "Hello from Java!");
         emitSignal("my_signal", 42);
