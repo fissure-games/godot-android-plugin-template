@@ -1,8 +1,0 @@
-[config]
-
-name="MyGodotPlugin"
-binary_type="local"
-binary="MyGodotPlugin.release.aar"
-
-[dependencies]
-remote=[]
